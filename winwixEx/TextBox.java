@@ -34,14 +34,14 @@ public class TextBox extends Control {
 		return str;
 	}
 
-	public static String stars(int num, String text) {
+	public static String stars(int num, String text) { // I decided to make a helper method.
 		String str = "";
 		for (int i = 0; i < num; i++) {
-			str +=  "*";
+			str +=  "*"; // It builds the * lines above and below the label text
 		}
-		str += "\n" + text + "\n";
+		str += "\n" + text + "\n"; // Label text goes here in the middle.
 		for (int i = 0; i < num; i++) {
-			str +=  "*";
+			str +=  "*"; // Second * line.
 		}
 		return str;
 	}
