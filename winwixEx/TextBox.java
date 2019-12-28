@@ -3,6 +3,8 @@ package winwixEx;
 public class TextBox extends Control {
 
 	private int charNum;
+	
+	
 
 	public TextBox(String label) {
 		super(label);

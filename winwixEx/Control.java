@@ -4,6 +4,7 @@ public abstract class Control {
 	
 	private String label;
 	
+	
 	public Control(String label) {
 		setLabel(label);
 	}

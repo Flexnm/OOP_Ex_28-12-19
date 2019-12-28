@@ -1,6 +1,6 @@
 package winwixEx;
 
-public class PassText extends Control {
+public class PassText extends TextBox {
 
 	public PassText(String label) {
 		super(label);
