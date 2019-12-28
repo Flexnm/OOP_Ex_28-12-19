@@ -9,7 +9,7 @@ public class Button extends Control {
 		this.color = color;
 	}
 	
-	public String draw() {
+	public String draw() { // getLabel().length() gives the length of the String object.
 		String str = "";
 		for (int i = 0; i < getLabel().length(); i++) {
 			str +=  "*";
